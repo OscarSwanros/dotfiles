@@ -40,3 +40,8 @@ alias v="gvim"
 bind -f ~/.dotfiles/history_search
 
 export TERM=xterm-256color
+
+#GOLANG
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+export GOBIN=$GOPATH/bin
